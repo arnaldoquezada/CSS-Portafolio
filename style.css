@@ -34,8 +34,8 @@ h1, h3, h2{
     display:inline-block;
 }
 .container-sub{
-    background-color: #221116;
-    height: 600px;
+    background-color:#6f5964;
+    height: 1200px;
     width: 940px;
     padding: 15px;
     display: inline-block;
@@ -47,4 +47,94 @@ h1, h3, h2{
     display: inline-block;
     padding: 5px;
 }
+.about-wrapper{
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+.box-about{
+    background-color: #ece4eb;
+    height: 260px;
+    display: inline-block;  
+    vertical-align: top;
+    margin-left: 20px;
+
+}
+.head-box-about{
+    background-color:#8d8b98;
+    display: inline-block;
+    width: 100%;
+    height: 40px; 
+}
+.head-box-about h2{
+    margin-left: 10px;
+    margin-top: 5px;
+    color:#feffff;
+    font-family:'Times New Roman', Times, serif;    
+}
+.box-about p, a{
+    margin-left:10px;    
+    margin-right: 10px;
+    color: #6d6161;
+    
+}
+.box-portafolios{    
+    width: 284px;
+    background-color: #f7f3f6;
+    margin-top: 25px;
+    margin-right: 23px;
+    padding-bottom: 20px;
+    display: inline-block;
+    border: 1px #8f7d89 solid  ;
+}
+    .box-cabecera{
+        height: 35px;
+        background-color:#9898a1;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    .box-cabecera h2{
+        color:#ffffff;    
+    }
+    .box-text{   
+        color:#e7dee7;
+        margin: 5px 5px 30px ;
+        text-align: justify ;
+    }
+    .box-text p{
+        margin:0px 10px 20px 10px;
+        color:#7f786d;
+        margin-top: 5px;
+    }
+    .box-tech{
+        background-color:#9898a1;
+        height: 30px;
+        padding-top: 8px;
+        padding-left: 10px;
+    }
+    .box-tech h3{
+        color:#ffffff;   
+
+    }
+    .box-img-tech{
+        padding: 15px;
+    }
+    .box-img-tech img{
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+    .box-img-tech button{
+        background-color:#407d61;
+        margin-left: 25px;
+        
+    }
+    .box-btn button{
+        border-radius: 10px;
+        box-shadow:#7b8c86;
+        margin-left: 37%;
+        background-color:#407d61;
+        height: 30px;
+        color: white;
+    }
+
    
