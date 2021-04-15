@@ -2,8 +2,7 @@ h1, h3, h2{
     margin: 0%;
 }
 .container{
-    width: 970px;
-    height: 1600px;
+    width: 993px;
     background-color:#f6f6f6;
     border-left: 25px;
     border-right: 25px;
@@ -20,6 +19,7 @@ h1, h3, h2{
     margin-top: 10px;
     margin-left: 15px;
     display: inline-block;
+ 
 }
 .text-1{
    display: inline-block;
@@ -35,9 +35,8 @@ h1, h3, h2{
 }
 .container-sub{
     background-color:#6f5964;
-    height: 1200px;
     width: 940px;
-    padding: 15px;
+    padding: 20px 15px 20px 38px ;
     display: inline-block;
 }
 .box-img-profile{
@@ -80,15 +79,16 @@ h1, h3, h2{
 }
 .box-portafolios{    
     width: 284px;
-    background-color: #f7f3f6;
+    background-color:#eae1e9;
     margin-top: 25px;
     margin-right: 23px;
     padding-bottom: 20px;
     display: inline-block;
+    vertical-align: top;
     border: 1px #8f7d89 solid  ;
 }
     .box-cabecera{
-        height: 35px;
+        height: 40px;
         background-color:#9898a1;
         padding-top: 5px;
         padding-left: 10px;
@@ -117,11 +117,16 @@ h1, h3, h2{
 
     }
     .box-img-tech{
-        padding: 15px;
+        padding: 5px;
+        margin-left: 10px;
+        display:inline-block;
+        align-items: center;
     }
     .box-img-tech img{
-        margin-right: 10px;
+        margin-right: 8px;
         margin-bottom: 0px;
+        
+       
     }
     .box-img-tech button{
         background-color:#407d61;
@@ -131,10 +136,39 @@ h1, h3, h2{
     .box-btn button{
         border-radius: 10px;
         box-shadow:#7b8c86;
-        margin-left: 37%;
+        margin-left: 32%;
         background-color:#407d61;
         height: 30px;
         color: white;
     }
+    .box-btn a{
+       color: white;
+       text-decoration: none;
+    }
+
+.footer{
+    padding: 0;
+    align-items: center;
+}
+.box-contacto {
+    margin-left: 40%;
+}
+.box-contacto p{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.box-rsociales{
+    margin-left: 30%;
+    font-style: italic;
+    margin-top: 0px;
+}
+.box-rsociales a{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+
 
    
